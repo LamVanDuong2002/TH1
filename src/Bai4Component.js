@@ -5,7 +5,7 @@ const Bai4Component = () => {
   const[count,setCount] = useState(0);
   return (
     <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
-      <Text>Bạn đã nhấn nút: {count} lần</Text>
+      <Text>Nhấn nút: {count} lần</Text>
       <TouchableOpacity
         style={{height:20, marginTop:5}}
         onPress={() => setCount(count+1)}> 

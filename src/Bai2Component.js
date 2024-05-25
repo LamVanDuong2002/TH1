@@ -2,9 +2,9 @@ import { Button, StyleSheet, Text, TouchableHighlight, View } from "react-native
 const Bai2Component = () => {
     return(
         <View style={bai2Style.container}>
-            <Button title="CLICK ME !!!" onPress={()=>alert('Nguyen Trung Tinh')}></Button>
+            <Button title="CLICK ME !!!" onPress={()=>alert('LamVanDuong')}></Button>
             <TouchableHighlight style={bai2Style.buttonStyle}>
-                <Text style={bai2Style.txtStyle} onPress={()=>alert('2024802010018')}>TOUCH ME !!!</Text>
+                <Text style={bai2Style.txtStyle} onPress={()=>alert('2024802010396')}>TOUCH ME !!!</Text>
             </TouchableHighlight>
         </View>  
     )

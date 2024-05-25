@@ -8,7 +8,7 @@ const Bai7Component = () => {
     <View style={bai7Style.container}>
         <Text style={bai7Style.label}>What is your name ?</Text>
         <TextInput 
-            placeholder="Nguyen Trung Tinh"
+            placeholder="Lam Van Duong"
             style={bai7Style.input}
             onChangeText={setName}
             value={name}
@@ -16,7 +16,7 @@ const Bai7Component = () => {
         <Button 
             title="Say Hello"
             onPress={()=>{
-                Alert.alert(`Thông báo`, `Xin chào ${name}!`)
+                Alert.alert(`Hello ${name}!`)
                 setName("")
         }}/>
     </View>

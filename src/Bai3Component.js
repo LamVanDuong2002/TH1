@@ -4,7 +4,7 @@ const Button = (props) => (
     <TouchableHighlight
     onPress={props.onPress}
     style={{
-        backgroundColor:'pink',
+        backgroundColor:'blue',
         margin:10,
         padding:10,
         ...props.buttonStyle,
